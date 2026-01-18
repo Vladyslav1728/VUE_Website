@@ -9,8 +9,14 @@
     </div>
 
     <div class="destination-facts">
-      <p class="text-secondary">{{ destination.facts }}</p>
+      <div class="facts-text">
+        <p class="text-secondary">{{ destination.facts }}</p>
+      </div>
+      <div class="facts-table">
+        <Table :data="destination.factsTable" />
+      </div>
     </div>
+
 
     <div class="experiences">
       <h2>Top 5 cities in {{ destination.name }}</h2>
@@ -30,11 +36,13 @@
 
 <script>
 import ExperienceCard from "@/components/ExperienceCard.vue"
+import TheFooter from "@/components/TheFooter.vue";
+import Table from "@/components/Table.vue";
 import data from "@/data.json"
 export default {
   name: "DestinationView",
   props: ['slug'],
-  components: { ExperienceCard },
+  components: { TheFooter, ExperienceCard, Table },
   data() { // 1 krat
     return {
       destination: null
@@ -72,18 +80,30 @@ export default {
 }
 .destination-facts {
   display: flex;
-  justify-content: center;
+  gap: 40px;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1050px;
   margin: 60px auto;
-  padding: 24px 32px;
+  padding: 32px;
   background: #eaf6ec;
   border-radius: 16px;
-  box-shadow: 0 18px 40px rgba(76, 175, 122, 0.25), 0 6px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 18px 40px rgba(76, 175, 122, 0.25),
+  0 6px 12px rgba(0, 0, 0, 0.05);
   white-space: pre-line;
-  line-height: 1.5;
-  color: #2f4f4f;
-  font-weight: 500;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.facts-text {
+  flex: 1 1 60%;
+  color: #2f4f4f;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  min-width: 200px;
+}
+.facts-table {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: flex-end;
 }
 .destination-facts:hover {
   transform: translateY(-4px);

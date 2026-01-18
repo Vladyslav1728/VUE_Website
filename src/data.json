@@ -7,6 +7,13 @@
       "id": 1,
       "description": "Ukraine is the largest country entirely in Europe, boasting a remarkable variety of landscapes that stretch from the majestic Carpathian Mountains in the west to the serene Black Sea coast in the south. Kyiv, the capital, is a vibrant city where golden-domed churches, historic monasteries, and bustling markets coexist with modern art galleries, theaters, and lively nightlife. Lviv, a cultural gem, captivates visitors with its charming old town, cobblestone streets, thriving coffee culture, and numerous festivals celebrating art and music. Odesa, the historic port city, enchants with its sunny beaches, eclectic architecture blending French, Italian, and Russian influences, and a rich maritime heritage. Ukraine is home to fertile plains and is one of the world’s largest grain exporters, while its folk traditions, colorful festivals, and music reflect centuries of rich cultural heritage. Ukrainian cuisine offers hearty and flavorful dishes such as borscht, varenyky, salo, and traditional pastries. The Carpathians provide breathtaking opportunities for hiking, skiing, and nature exploration, while Chernivtsi and Kamianets-Podilskyi impress visitors with medieval charm and historical architecture. From cozy village traditions to cosmopolitan cities, Ukraine combines history, culture, gastronomy, and natural beauty into a truly unforgettable travel experience.",
       "facts": "1. The largest country located entirely in Europe.\n2. Known for fertile lands and being one of the world’s top grain exporters.\n3. Rich cultural heritage with traditional music, dance, and festivals.\n4. Home to diverse landscapes including mountains, plains, and the Black Sea coast.\n5. Famous for hospitality, strong national identity, and historic cities.",
+      "factsTable": {
+        "Capital": "Kyiv",
+        "Population": "≈ 41 million",
+        "Currency": "Hryvnia (UAH)",
+        "Language": "Ukrainian",
+        "Region": "Eastern Europe"
+      },
       "experiences": [
         {
           "name": "Kyiv",
@@ -47,6 +54,13 @@
       "id": 2,
       "description": "Slovakia is a picturesque Central European country celebrated for its medieval castles, rolling mountains, lush forests, and charming villages. Bratislava, the capital, rests elegantly along the Danube River, offering cobbled streets, historic squares, and a vibrant cultural life with cafes, galleries, and festivals. The High Tatras provide breathtaking scenery, perfect for skiing, hiking, climbing, and wildlife observation, with peaks, valleys, and alpine lakes that attract nature lovers year-round. Slovak villages preserve centuries-old traditions, folk music, colorful festivals, and crafts, giving visitors a glimpse of authentic cultural heritage. The cuisine is hearty and flavorful, including bryndzové halušky, goulash, smoked meats, and regional pastries. Košice, Trnava, and Banská Štiavnica stand out for their Gothic and Baroque architecture, historical significance, and lively cultural events. Visitors can explore unique geological formations such as Dobšinská Ice Cave and marvel at wooden churches that are UNESCO World Heritage sites. Slovakia is a country where natural beauty, outdoor adventure, history, and vibrant traditions converge, offering an enriching experience for travelers of all ages.",
       "facts": "1. Home to more than 100 castles and castle ruins.\n2. Features the High Tatras, the smallest high mountain range in the world.\n3. Rich folk traditions preserved in villages and festivals.\n4. Known for wooden churches and UNESCO heritage sites.\n5. Offers excellent hiking, skiing, and outdoor activities.",
+      "factsTable": {
+        "Capital": "Bratislava",
+        "Population": "≈ 5.4 million",
+        "Currency": "Euro (EUR)",
+        "Language": "Slovak",
+        "Region": "Central Europe"
+      },
       "experiences": [
         {
           "name": "Bratislava",
@@ -87,6 +101,13 @@
       "id": 3,
       "description": "Romania, located in Eastern Europe, is a land of breathtaking diversity, featuring the Carpathian Mountains, rolling hills, dense forests, the Danube Delta, and the picturesque Black Sea coast. Bucharest, the capital, combines monumental architecture such as the Palace of the Parliament with vibrant street life, cafes, museums, and a bustling nightlife. Transylvania enchants with medieval castles, fortified churches, folklore, and legends, including the world-famous Dracula myth. Brașov, Sibiu, and Cluj-Napoca offer charming historic squares, architectural beauty, cultural events, and a welcoming atmosphere. Romania’s folk traditions are rich in music, dance, crafts, and seasonal festivals. The Danube Delta, a UNESCO World Heritage site, features extraordinary biodiversity, including rare bird species and aquatic life. Maramureș is famed for its wooden churches and traditional villages, while Constanța provides sandy beaches, seaside culture, and maritime history. The Carpathians offer opportunities for hiking, skiing, and wildlife observation. Romania elegantly blends natural beauty, rich history, vibrant urban life, and folk culture into a truly captivating destination for travelers.",
       "facts": "1. Famous for Transylvania and medieval castles.\n2. Home to the Carpathian Mountains and rich wildlife.\n3. The Danube Delta is a UNESCO World Heritage site.\n4. Strong folk traditions in music, crafts, and festivals.\n5. Diverse landscapes from mountains to the Black Sea coast.",
+      "factsTable": {
+        "Capital": "Bucharest",
+        "Population": "≈ 19 million",
+        "Currency": "Romanian Leu (RON)",
+        "Language": "Romanian",
+        "Region": "Eastern Europe"
+      },
       "experiences": [
         {
           "name": "Bucharest",
@@ -127,6 +148,13 @@
       "id": 4,
       "description": "Poland, located in the heart of Central Europe, is a country with a deep historical legacy, strong national identity, and a rich cultural landscape shaped by centuries of change. Warsaw, the capital city, is a powerful symbol of resilience, where modern skyscrapers stand alongside the meticulously reconstructed Old Town, telling the story of destruction and rebirth after World War II. The city offers world-class museums, theaters, green parks, and a dynamic cultural and business scene. Kraków, one of Europe’s most beautiful historic cities, captivates visitors with its medieval market square, Wawel Castle, Jewish quarter of Kazimierz, and a vibrant academic and artistic atmosphere. Polish culture is deeply rooted in music, literature, science, and strong family traditions. Festivals, historical reenactments, and folk celebrations are held throughout the year. Polish cuisine is hearty and comforting, featuring dishes such as pierogi, bigos, żurek, and traditional pastries, often prepared according to regional recipes passed down through generations. Wrocław, known as the city of a hundred bridges, charms visitors with canals, colorful townhouses, and lively squares, while Zakopane, nestled in the mountains, preserves highlander traditions, wooden architecture, and folk music. Poland offers a harmonious blend of history, nature, tradition, and modern urban life, making it a diverse and rewarding destination for travelers.",
       "facts": "1. One of Europe’s most historically resilient nations.\n2. Home to ancient forests like Białowieża, habitat of wild bison.\n3. Strong cultural traditions in music, literature, and science.\n4. Known for hearty traditional cuisine such as pierogi and bigos.\n5. Features both modern cities and well-preserved medieval towns.",
+      "factsTable": {
+        "Capital": "Warsaw",
+        "Population": "≈ 38 million",
+        "Currency": "Polish Złoty (PLN)",
+        "Language": "Polish",
+        "Region": "Central Europe"
+      },
       "experiences": [
         {
           "name": "Warsaw",
@@ -167,6 +195,13 @@
       "id": 5,
       "description": "Czechia is a captivating Central European country renowned for its fairy-tale castles, historic towns, and deep cultural traditions. Prague, the capital city, is often described as an open-air museum, where Gothic cathedrals, Baroque palaces, and medieval streets create an unforgettable atmosphere. Landmarks such as the Charles Bridge, Old Town Square, and Prague Castle are complemented by lively cafes, jazz clubs, galleries, and a thriving contemporary cultural scene. The Vltava River winds through the city, offering scenic views and romantic walks that reflect Prague’s timeless charm. The Czech landscape is varied and inviting, featuring mountain ranges, rolling hills, forests, rivers, and protected natural parks ideal for hiking, cycling, and relaxation. Bohemian and Moravian regions preserve strong folklore traditions, including music, dance, costumes, and seasonal festivals. Czech cuisine reflects the country’s history and climate, offering rich dishes such as goulash, svíčková, dumplings, and roasted meats, often enjoyed in cozy traditional restaurants. With its balance of historic depth, natural beauty, cultural creativity, and modern lifestyle, Czechia stands out as a country where tradition and contemporary life exist in perfect harmony.",
       "facts": "1. Known for fairy-tale castles and historic towns.\n2. Prague is one of the most visited cities in Europe.\n3. World-famous beer culture with centuries-old breweries.\n4. Rich traditions in music, literature, and architecture.\n5. Compact country with diverse landscapes and strong regional identity.",
+      "factsTable": {
+        "Capital": "Prague",
+        "Population": "≈ 10.7 million",
+        "Currency": "Czech Koruna (CZK)",
+        "Language": "Czech",
+        "Region": "Central Europe"
+      },
       "experiences": [
         {
           "name": "Prague",
