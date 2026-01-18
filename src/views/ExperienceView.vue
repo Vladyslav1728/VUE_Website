@@ -11,32 +11,20 @@
 
 
 <script>
-import data from "@/data.json"
+import { useDestinationsStore } from "@/stores/useDestinationsStore";
 export default {
   name: "ExperienceView",
   props: ["slug", "experienceSlug"],
-  data() {
-    return {
-      experience: null
-    }
-  },
-  mounted() {
-    this.loadExperience()
-  },
-  watch: {
-    slug() {
-      this.loadExperience()
-    },
-    experienceSlug() {
-      this.loadExperience()
-    }
-  },
-  methods: {
-    loadExperience() {
-      const destination = data.destinations.find(d => d.slug === this.slug)
-      if (!destination) return
-      this.experience = destination.experiences.find(e => e.slug === this.experienceSlug)
-      console.log("FOUND EXPERIENCE:", this.experience)
+  computed: {
+    experience() {
+      const store = useDestinationsStore()
+      const destination = store.destinations.find(
+          d => d.slug === this.slug
+      )
+      if (!destination) return null
+      return destination.experiences.find(
+          e => e.slug === this.experienceSlug
+      )
     }
   }
 }

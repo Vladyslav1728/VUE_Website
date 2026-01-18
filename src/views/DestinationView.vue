@@ -35,34 +35,26 @@
 
 
 <script>
-import ExperienceCard from "@/components/ExperienceCard.vue"
+import ExperienceCard from "@/components/ExperienceCard.vue";
 import TheFooter from "@/components/TheFooter.vue";
 import Table from "@/components/Table.vue";
-import data from "@/data.json"
+import { useDestinationsStore } from "@/stores/useDestinationsStore";
+
 export default {
   name: "DestinationView",
-  props: ['slug'],
-  components: { TheFooter, ExperienceCard, Table },
-  data() { // 1 krat
-    return {
-      destination: null
+  props: ["slug"],
+  components: {TheFooter, ExperienceCard, Table},
+  computed: {
+    destination() {
+      const store = useDestinationsStore()
+      return store.destinations.find(
+          d => d.slug === this.slug
+      ) || null
     }
   },
-  mounted() { // 1 krat - component in web
-    this.findBySlug()
-  },
-  watch: { // 1++ krat - Listener
-    slug() {
-      this.findBySlug()
-    }
-  },
-  methods: { // my methods
-    findBySlug() {
-      this.destination = data.destinations.find(d => d.slug === this.slug)
-      console.log("FOUND DESTINATION:", this.destination)
-    },
+  methods: {
     goBack() {
-      this.$router.back();
+      this.$router.back()
     }
   }
 }

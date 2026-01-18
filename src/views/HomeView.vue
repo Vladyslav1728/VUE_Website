@@ -28,12 +28,13 @@
 
 
 <script>
-import data from "@/data.json"
+import { useDestinationsStore } from "@/stores/useDestinationsStore";
 export default {
   name: "HomeView",
-  data() {
-    return {
-      destinations: data.destinations
+  computed: {
+    destinations() {
+      const store = useDestinationsStore()
+      return store.destinations
     }
   }
 }

@@ -14,20 +14,13 @@
 
 
 <script>
-import { useRoute } from "vue-router"
-import data from "@/data.json"
+import { useDestinationsStore } from "@/stores/useDestinationsStore";
+
 export default {
   name: "TheNavigation",
-  data() {
-    return {
-      destinations: data.destinations,
-      route: useRoute()
-    }
-  },
-  methods: {
-    isActive(path) {
-      return this.route.path === path
-    }
+  setup() {
+    const store = useDestinationsStore()
+    return { destinations: store.destinations }
   }
 }
 </script>
