@@ -17,7 +17,6 @@
       </div>
     </div>
 
-
     <div class="experiences">
       <h2>Top 5 cities in {{ destination.name }}</h2>
       <div class="cards">
@@ -35,10 +34,10 @@
 
 
 <script>
+import { useDestinationsStore } from "@/stores/useDestinationsStore";
 import ExperienceCard from "@/components/ExperienceCard.vue";
 import TheFooter from "@/components/TheFooter.vue";
 import Table from "@/components/Table.vue";
-import { useDestinationsStore } from "@/stores/useDestinationsStore";
 
 export default {
   name: "DestinationView",
@@ -47,9 +46,7 @@ export default {
   computed: {
     destination() {
       const store = useDestinationsStore()
-      return store.destinations.find(
-          d => d.slug === this.slug
-      ) || null
+      return store.destinations.find(d => d.slug === this.slug) || null
     }
   },
   methods: {

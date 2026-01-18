@@ -1,6 +1,6 @@
 <template>
   <div class="experience-card">
-    <RouterLink :to="`/destination/${slug}/${experience.slug}`">
+    <RouterLink :to="`/destination/${slug}/${experience.slug}`" @click.native="scrollDownToText">
 
       <img :src="`/VUE_Website/images/${experience.image}`" :alt="experience.name"/>
       <div class="card-text">
@@ -20,6 +20,16 @@ export default {
   props: {
     slug: { type: String, required: true },
     experience: { type: Object, required: true }
+  },
+  methods: {
+    scrollDownToText() {
+      setTimeout(() => {
+        const textBlock = document.querySelector(".experience-title");
+        if (textBlock) {
+          textBlock.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    }
   }
 }
 </script>

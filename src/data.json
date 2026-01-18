@@ -19,30 +19,80 @@
           "name": "Kyiv",
           "slug": "kyiv",
           "image": "kyiv.jpg",
+          "population": {
+            "2018": "2930000",
+            "2019": "2950000",
+            "2020": "2970000",
+            "2021": "2990000",
+            "2022": "3000000",
+            "2023": "2500000",
+            "2024": "2700000",
+            "2025": "2800000"
+          },
           "description": "Kyiv, the vibrant capital of Ukraine, is a city of golden domes, bustling markets, and historic streets. Visitors can explore ancient cathedrals such as Saint Sophia and Kyiv Pechersk Lavra, marvel at modern art galleries and museums, and stroll along the scenic Dnipro River embankments. Kyiv’s rich history spans over 1,400 years, blending medieval, Baroque, and Soviet architecture. The city hosts lively cultural festivals, street performances, and vibrant nightlife, offering a perfect combination of tradition and modern life. Food lovers can enjoy traditional Ukrainian cuisine, including borscht, varenyky, and hearty street food. The city also boasts numerous parks, botanical gardens, and river cruises, making Kyiv a destination for both culture and relaxation."
         },
         {
           "name": "Lviv",
           "slug": "lviv",
           "image": "lviv.jpg",
+          "population": {
+            "2018": "726772",
+            "2019": "724713",
+            "2020": "724314",
+            "2021": "721510",
+            "2022": "717273",
+            "2023": "719043",
+            "2024": "720934",
+            "2025": "723403"
+          },
           "description": "Lviv enchants with its cobblestone streets, baroque and Renaissance architecture, and rich coffee culture. The city is famous for its historic old town, a UNESCO World Heritage site filled with charming squares, fountains, and hidden courtyards. Lviv hosts numerous cultural festivals, including the Lviv Coffee Festival, Jazz Fest, and Book Forum, creating a lively atmosphere year-round. Visitors can explore its many museums, art galleries, and theaters, or enjoy street performances in the town center. Local cuisine offers unique blends of Ukrainian, Polish, and Austrian flavors, and cozy cafes serve some of the best coffee in Europe. Lviv is also known for its vibrant night scene, scenic rooftop views, and beautiful parks and gardens, making it a cultural and artistic hub."
         },
         {
           "name": "Odesa",
           "slug": "odesa",
           "image": "odesa.jpg",
+          "population": {
+            "2018": "1011000",
+            "2019": "1010000",
+            "2020": "1009000",
+            "2021": "1010537",
+            "2022": "1008000",
+            "2023": "1007756",
+            "2024": "1008103",
+            "2025": "1007000"
+          },
           "description": "Odesa, a port city on the Black Sea, is famous for its sunny beaches, eclectic architecture, and lively cultural scene. Its historic opera house is an architectural gem, and the bustling markets, including the Privoz Market, offer a taste of local life and fresh produce. Odesa’s streets feature a mix of Art Nouveau, Renaissance, and Soviet-era buildings, creating a unique urban atmosphere. The city is home to numerous festivals, music events, and theaters, making it a vibrant center for arts and entertainment. Visitors can enjoy relaxing walks along the Primorsky Boulevard, explore catacombs and historic landmarks, or take boat tours along the Black Sea coast. Odesa is also known for its humor, seaside cuisine, and warm, welcoming residents."
         },
         {
           "name": "Dnipro",
           "slug": "dnipro",
           "image": "dnipro.jpg",
+          "population": {
+            "2018": "1017000",
+            "2019": "1010000",
+            "2020": "1005000",
+            "2021": "990000",
+            "2022": "968502",
+            "2023": "942000",
+            "2024": "937000",
+            "2025": "892000"
+          },
           "description": "Dnipro, situated on the banks of the Dnipro River, combines modern urban life with relaxing riverfront promenades. The city features impressive Soviet-era architecture alongside modern skyscrapers, museums, and art galleries. Parks, gardens, and open-air recreational areas offer opportunities for walking, cycling, and leisure. Dnipro is also an important industrial and scientific hub, with universities, research centers, and technology parks. Visitors can enjoy cultural events, theaters, and local festivals celebrating music, art, and heritage. The city’s vibrant cafes, restaurants, and river cruises provide a taste of local life and cuisine. Dnipro’s dynamic atmosphere makes it ideal for exploring both the city’s history and contemporary culture."
         },
         {
           "name": "Kharkiv",
           "slug": "kharkiv",
           "image": "kharkiv.jpg",
+          "population": {
+            "2018": "1450100",
+            "2019": "1440000",
+            "2020": "1435300",
+            "2021": "1447000",
+            "2022": "1406000",
+            "2023": "1343000",
+            "2024": "1321000",
+            "2025": "1302000"
+          },
           "description": "Kharkiv is a vibrant university city in northeastern Ukraine, known for its wide boulevards, parks, and diverse architecture spanning Baroque, Neoclassical, and Soviet styles. The city hosts numerous cultural events, including international music festivals, theater performances, and art exhibitions, creating a youthful and dynamic atmosphere. Museums, botanical gardens, and historical landmarks attract visitors interested in history and culture. Kharkiv is home to several universities and research centers, contributing to its energetic student life. The city’s lively cafes, local markets, and modern shopping areas offer a taste of everyday life. Whether exploring its museums, enjoying cultural performances, or walking through its green spaces, Kharkiv combines history, education, and entertainment in a vibrant urban experience."
         }
       ]
@@ -66,30 +116,80 @@
           "name": "Bratislava",
           "slug": "bratislava",
           "image": "bratislava.jpg",
+          "population": {
+            "2018": "432000",
+            "2019": "437000",
+            "2020": "440000",
+            "2021": "475503",
+            "2022": "476577",
+            "2023": "478922",
+            "2024": "480040",
+            "2025": "481100"
+          },
           "description": "Bratislava, the charming capital of Slovakia on the banks of the Danube, is a city where history meets modern life. The hilltop Bratislava Castle offers panoramic views of the city and the river, while the old town captivates with cobbled streets, baroque buildings, and vibrant cafes. Visitors can explore museums, galleries, and historic churches, or stroll along the Danube promenade. Bratislava hosts lively cultural festivals, including music, theater, and film events, attracting locals and tourists alike. The city also offers a bustling nightlife with cozy pubs, wine bars, and modern restaurants. Traditional Slovak cuisine, such as bryndzové halušky and local pastries, can be enjoyed in the numerous eateries throughout the city. Bratislava perfectly blends history, culture, and contemporary urban life."
         },
         {
           "name": "Košice",
           "slug": "kosice",
           "image": "kosice.jpg",
+          "population": {
+            "2018": "238000",
+            "2019": "239000",
+            "2020": "239500",
+            "2021": "229040",
+            "2022": "227040",
+            "2023": "225044",
+            "2024": "224044",
+            "2025": "223678"
+          },
           "description": "Košice, the second largest city in Slovakia, is a lively cultural hub in the eastern part of the country. Its Gothic St. Elisabeth Cathedral dominates the skyline, while the historic Main Street is lined with colorful baroque and Art Nouveau buildings. The city offers numerous museums, art galleries, and theaters, hosting concerts, exhibitions, and traditional markets that showcase Slovak heritage. Košice also has a vibrant café culture, modern shopping areas, and green parks perfect for leisurely walks. Festivals celebrating music, folklore, and local traditions are held throughout the year. Visitors can enjoy local cuisine, sample Slovak wines, and explore nearby natural attractions like the Slovak Paradise National Park. Košice is a blend of history, art, and modern urban energy."
         },
         {
           "name": "Prešov",
           "slug": "presov",
           "image": "presov.jpg",
+          "population": {
+            "2018": "88000",
+            "2019": "89000",
+            "2020": "90000",
+            "2021": "86000",
+            "2022": "82927",
+            "2023": "83000",
+            "2024": "81500",
+            "2025": "77000"
+          },
           "description": "Prešov, a historic city in eastern Slovakia, enchants visitors with its baroque churches, quaint streets, and warm, welcoming atmosphere. The city is rich in cultural heritage, with numerous museums, galleries, and theaters reflecting centuries of history. Local festivals and markets celebrate Slovak traditions, music, and handicrafts, offering a glimpse into authentic regional life. Prešov’s architecture ranges from Gothic and Renaissance to modern influences, creating a diverse urban landscape. Visitors can enjoy local cuisine, relax in cozy cafes, and explore nearby natural areas, including hiking trails and scenic riverbanks. The city’s blend of history, culture, and lively local life makes it a charming destination for travelers."
         },
         {
           "name": "Žilina",
           "slug": "zilina",
           "image": "zilina.jpg",
+          "population": {
+            "2018": "80978",
+            "2019": "80810",
+            "2020": "80727",
+            "2021": "82656",
+            "2022": "81219",
+            "2023": "80300",
+            "2024": "80257",
+            "2025": "80000"
+          },
           "description": "Žilina, a lively city in northwestern Slovakia, is known for its vibrant student population, bustling squares, and cultural events. Surrounded by scenic mountains, the city offers beautiful parks, promenades, and panoramic viewpoints. The historic center features Renaissance and Baroque architecture, while modern cultural centers host concerts, theater, and art exhibitions throughout the year. Žilina is also a hub for local festivals celebrating music, crafts, and Slovak traditions. Visitors can enjoy the local gastronomy, sample Slovak wines and pastries, and explore nearby natural attractions like the Malá Fatra National Park. With its combination of historic charm, youthful energy, and natural beauty, Žilina is a hidden gem in Slovakia."
         },
         {
           "name": "Nitra",
           "slug": "nitra",
           "image": "nitra.jpg",
+          "population": {
+            "2018": "79125",
+            "2019": "78559",
+            "2020": "78353",
+            "2021": "77374",
+            "2022": "76374",
+            "2023": "76000",
+            "2024": "75945",
+            "2025": "75000"
+          },
           "description": "Nitra, one of Slovakia’s oldest cities, offers a fascinating journey through history and culture. Its hilltop castles provide panoramic views of the surrounding landscapes, while historic churches, including the Cathedral of St. Emeram, showcase centuries of architectural beauty. Nitra is a center for education, with universities and cultural institutions contributing to a vibrant local life. Visitors can explore museums, galleries, and theaters, attend cultural festivals, and enjoy traditional Slovak cuisine in cozy restaurants. The city also has beautiful parks and promenades along the river, perfect for relaxing walks. Nitra’s rich blend of history, education, and cultural life makes it a must-visit city in Slovakia."
         }
       ]
@@ -113,30 +213,80 @@
           "name": "Bucharest",
           "slug": "bucharest",
           "image": "bucharest.jpg",
+          "population": {
+            "2018": "1821000",
+            "2019": "1812000",
+            "2020": "1803000",
+            "2021": "1716961",
+            "2022": "1712000",
+            "2023": "1708000",
+            "2024": "1705000",
+            "2025": "1709458"
+          },
           "description": "Bucharest, the vibrant capital of Romania, is a city of contrasts where grandiose architecture meets charming old neighborhoods. The massive Palace of the Parliament dominates the skyline, reflecting the city’s complex history. Visitors can explore historic streets lined with Belle Époque buildings, art nouveau villas, and Orthodox churches. Bucharest is home to numerous museums, theaters, and galleries, offering a rich cultural experience. Cafes, restaurants, and wine bars create a lively urban atmosphere, while the sprawling Herăstrău Park and the serene Dâmbovița River embankments provide spaces for relaxation and recreation. The city hosts annual festivals, music events, and street performances, blending history, culture, and modern city life."
         },
         {
           "name": "Cluj-Napoca",
           "slug": "cluj-napoca",
           "image": "cluj.jpg",
+          "population": {
+            "2018": "320000",
+            "2019": "318000",
+            "2020": "316000",
+            "2021": "286598",
+            "2022": "290000",
+            "2023": "301000",
+            "2024": "308000",
+            "2025": "310000"
+          },
           "description": "Cluj-Napoca, located in Transylvania, is a youthful and energetic city known for its universities, dynamic arts scene, and multicultural heritage. The city features historic churches, grand squares, and narrow streets filled with cafes, bookstores, and art galleries. Street festivals, open-air concerts, and local markets contribute to a lively and welcoming atmosphere. Cluj-Napoca is surrounded by scenic hills and parks, offering opportunities for hiking, cycling, and nature walks. Visitors can enjoy traditional Transylvanian cuisine, as well as international dishes in trendy restaurants. The combination of history, modern culture, and student energy makes Cluj-Napoca a hub for innovation and creativity."
         },
         {
           "name": "Timișoara",
           "slug": "timisoara",
           "image": "timisoara.jpg",
+          "population": {
+            "2018": "307000",
+            "2019": "306800",
+            "2020": "306500",
+            "2021": "306000",
+            "2022": "305800",
+            "2023": "305400",
+            "2024": "305000",
+            "2025": "304000"
+          },
           "description": "Timișoara, often called 'Little Vienna,' is a city rich in history, architecture, and cultural life. Its wide squares and baroque buildings reflect the city’s Austro-Hungarian past, while modern cultural centers host concerts, art exhibitions, and theater performances throughout the year. The city is home to lively cafes, cozy restaurants, and vibrant nightlife, making it a center for both locals and tourists. Parks, promenades, and the Bega River provide scenic spaces for leisure and outdoor activities. Timișoara’s festivals, including music, film, and street art events, celebrate its diverse heritage and contemporary creativity. Visitors can enjoy local cuisine, discover historic landmarks, and immerse themselves in the city’s unique charm."
         },
         {
           "name": "Iași",
           "slug": "iasi",
           "image": "iasi.jpg",
+          "population": {
+            "2018": "318000",
+            "2019": "318000",
+            "2020": "317000",
+            "2021": "317000",
+            "2022": "316000",
+            "2023": "316000",
+            "2024": "316000",
+            "2025": "315000"
+          },
           "description": "Iași, the historical heart of Moldavia, is a city of culture, education, and history. Home to some of Romania’s oldest universities and libraries, Iași offers stunning churches, monasteries, and historic squares. The city’s theaters, museums, and galleries host numerous cultural events, including classical music concerts, festivals, and traditional celebrations. Visitors can stroll along tree-lined streets, enjoy cafes and restaurants serving regional delicacies, or explore the beautiful Copou Park with its famous Linden Tree Alley. Iași blends its rich historical past with modern urban life, creating a vibrant city where students, artists, and tourists coexist in a lively and engaging environment."
         },
         {
           "name": "Constanța",
           "slug": "constanta",
           "image": "constanta.jpg",
+          "population": {
+            "2018": "298000",
+            "2019": "296000",
+            "2020": "292000",
+            "2021": "263688",
+            "2022": "260000",
+            "2023": "257000",
+            "2024": "260000",
+            "2025": "261800"
+          },
           "description": "Constanța, located on the Black Sea coast, is a historic port city and popular seaside resort. Visitors can explore its ancient lighthouse, Roman mosaics, and maritime museums, or relax on its sunny beaches along the coastline. The city boasts a lively promenade lined with cafes, restaurants, and shops, hosting summer festivals, music events, and cultural exhibitions. Constanța also offers boat tours, water sports, and scenic walks along the sea. Its diverse architecture, blending Ottoman, Greek, and modern influences, reflects the city’s multicultural past. With its combination of history, beach life, and vibrant urban culture, Constanța is a top destination for both relaxation and cultural exploration."
         }
       ]
@@ -160,30 +310,80 @@
           "name": "Warsaw",
           "slug": "warsaw",
           "image": "warsaw.jpg",
+          "population": {
+            "2018": "1778000",
+            "2019": "1790000",
+            "2020": "1793000",
+            "2021": "1794000",
+            "2022": "1830000",
+            "2023": "1860000",
+            "2024": "1880000",
+            "2025": "1882000"
+          },
           "description": "Warsaw, the capital of Poland, is a city where history and modernity coexist. Its reconstructed Old Town, a UNESCO World Heritage site, showcases colorful townhouses, historic squares, and cobblestone streets that survived the devastation of World War II. Modern skyscrapers, shopping centers, and contemporary architecture create a vibrant urban skyline. Warsaw offers a rich cultural life with museums like the Warsaw Uprising Museum, theaters, concert halls, and art galleries. Parks, river promenades along the Vistula, and cozy cafes provide relaxation and social spaces. The city hosts festivals, music events, and traditional celebrations, reflecting Polish heritage and lively contemporary culture. Visitors can enjoy traditional Polish cuisine, from pierogi and bigos to local desserts."
         },
         {
           "name": "Kraków",
           "slug": "krakow",
           "image": "krakow.jpg",
+          "population": {
+            "2018": "771000",
+            "2019": "779000",
+            "2020": "780000",
+            "2021": "782000",
+            "2022": "801000",
+            "2023": "804200",
+            "2024": "808000",
+            "2025": "810590"
+          },
           "description": "Kraków is Poland’s historic and cultural jewel, famous for Wawel Castle, medieval streets, and bustling Main Market Square. Its Old Town, a UNESCO World Heritage site, features centuries-old churches, Renaissance architecture, and lively cafes. The city hosts numerous festivals, including film, music, and folklore events, showcasing Polish art, culture, and traditions. Visitors can explore museums, theaters, and galleries, as well as nearby attractions such as the Wieliczka Salt Mine. Kraków’s vibrant nightlife, street performances, and local markets add to its charm. Traditional cuisine, such as pierogi, oscypek, and hearty stews, can be enjoyed in historic taverns and modern restaurants. The city blends medieval history with a modern, lively atmosphere for all travelers."
         },
         {
           "name": "Gdańsk",
           "slug": "gdansk",
           "image": "gdansk.jpg",
+          "population": {
+            "2018": "466000",
+            "2019": "470904",
+            "2020": "470805",
+            "2021": "471000",
+            "2022": "486000",
+            "2023": "487371",
+            "2024": "488000",
+            "2025": "490000"
+          },
           "description": "Gdańsk, a historic port city on the Baltic Sea, is known for its Hanseatic architecture, colorful waterfront buildings, and rich maritime history. Its streets are lined with old townhouses, museums, and bustling markets, creating a charming atmosphere for visitors. The city’s Long Market and Neptune Fountain are iconic landmarks, while shipyards and museums commemorate Poland’s role in modern history. Gdańsk offers lively cultural events, music festivals, and seaside activities, including boat tours and beach excursions. Visitors can enjoy local cuisine with fresh seafood and traditional dishes. With its blend of history, culture, and coastal charm, Gdańsk is both picturesque and full of energy."
         },
         {
           "name": "Wrocław",
           "slug": "wroclaw",
           "image": "wroclaw.jpg",
+          "population": {
+            "2018": "638000",
+            "2019": "640000",
+            "2020": "641928",
+            "2021": "673000",
+            "2022": "672929",
+            "2023": "673743",
+            "2024": "670892",
+            "2025": "672545"
+          },
           "description": "Wrocław, known as the city of a hundred bridges, is a lively city in western Poland with charming canals, historic architecture, and vibrant cultural life. Its Market Square is a hub of activity, surrounded by colorful townhouses, cafes, and cultural venues. Wrocław boasts numerous theaters, galleries, and music events, hosting international festivals throughout the year. The city is famous for its dwarf statues scattered throughout the streets, creating a playful and unique sightseeing experience. Parks, riverside promenades, and outdoor spaces provide relaxation, while local cuisine and traditional Polish eateries offer authentic flavors. Wrocław blends history, art, and modern urban energy, making it a must-visit destination."
         },
         {
           "name": "Zakopane",
           "slug": "zakopane",
           "image": "zakopane.jpg",
+          "population": {
+            "2018": "27300",
+            "2019": "27010",
+            "2020": "26846",
+            "2021": "26000",
+            "2022": "25562",
+            "2023": "25204",
+            "2024": "24800",
+            "2025": "24500"
+          },
           "description": "Zakopane, at the foot of the Tatra Mountains, is Poland’s premier mountain resort known for its stunning natural landscapes, outdoor activities, and traditional wooden architecture. Visitors can enjoy skiing, snowboarding, hiking, and mountain climbing in both winter and summer. The town hosts vibrant folk festivals celebrating music, dance, and traditional crafts. Local markets sell handmade goods, while restaurants serve regional cuisine including smoked cheeses, hearty stews, and pastries. Zakopane also offers scenic viewpoints, nature trails, and cultural landmarks like the Tatra Museum and historic villas. Its combination of alpine charm, rich culture, and outdoor adventure creates an authentic mountain experience for tourists and nature lovers alike."
         }
       ]
@@ -207,30 +407,80 @@
           "name": "Prague",
           "slug": "prague",
           "image": "prague.jpg",
+          "population": {
+            "2018": "1292000",
+            "2019": "1299000",
+            "2020": "1306000",
+            "2021": "1312000",
+            "2022": "1350000",
+            "2023": "1380000",
+            "2024": "1397000",
+            "2025": "1400000"
+          },
           "description": "Prague, the capital of the Czech Republic, is one of Europe’s most enchanting cities, renowned for its cobbled streets, historic squares, and stunning architecture. The iconic Charles Bridge spans the Vltava River, connecting the Old Town with the Castle District, where Prague Castle dominates the skyline. Visitors can explore Gothic cathedrals, Baroque palaces, and hidden courtyards filled with cafes and artisan shops. Prague hosts a vibrant cultural scene, including classical music concerts, theater performances, and film festivals. The city’s charming streets, lively markets, and scenic riverbanks offer endless opportunities for photography and exploration. Traditional Czech cuisine, beer tasting tours, and local pastries add to the city’s irresistible charm, blending history, culture, and modern life."
         },
         {
           "name": "Brno",
           "slug": "brno",
           "image": "brno.jpg",
+          "population": {
+            "2018": "379000",
+            "2019": "381000",
+            "2020": "382300",
+            "2021": "398510",
+            "2022": "400000",
+            "2023": "401600",
+            "2024": "402739",
+            "2025": "403937"
+          },
           "description": "Brno, the second largest city in the Czech Republic, combines modern architecture with rich historical heritage. The Špilberk Castle and Cathedral of St. Peter and Paul are iconic landmarks, while vibrant squares and pedestrian streets are filled with cafes, shops, and cultural venues. Brno hosts numerous festivals celebrating music, theater, and contemporary art. The city is home to a lively student population, contributing to a dynamic nightlife and creative atmosphere. Visitors can explore museums, galleries, and historic buildings, while green spaces and parks provide relaxation. Traditional Moravian cuisine and local wines can be savored in cozy restaurants. Brno is a city where history, education, and modern culture blend seamlessly."
         },
         {
           "name": "Ostrava",
           "slug": "ostrava",
           "image": "ostrava.jpg",
+          "population": {
+            "2018": "290000",
+            "2019": "291000",
+            "2020": "287635",
+            "2021": "284982",
+            "2022": "284000",
+            "2023": "283500",
+            "2024": "283187",
+            "2025": "282300"
+          },
           "description": "Ostrava, an industrial and cultural hub in northeastern Czechia, offers a fascinating mix of history, modern urban life, and nature. Its industrial heritage is preserved in museums and former factories, which host music festivals, art exhibitions, and cultural events throughout the year. The city center features historic squares, theaters, and lively cafes, while the surrounding countryside offers parks, rivers, and recreational areas. Ostrava is known for its vibrant nightlife and culinary scene, with local specialties reflecting Czech and Silesian traditions. Visitors can explore cultural landmarks, enjoy concerts, and discover hidden historical sites, making Ostrava both a dynamic city and a gateway to nature."
         },
         {
           "name": "Olomouc",
           "slug": "olomouc",
           "image": "olomouc.jpg",
+          "population": {
+            "2018": "100500",
+            "2019": "100523",
+            "2020": "100663",
+            "2021": "106063",
+            "2022": "102000",
+            "2023": "102000",
+            "2024": "102293",
+            "2025": "101500"
+          },
           "description": "Olomouc is a historical city in Moravia, celebrated for its Baroque squares, astronomical clock, and magnificent churches. The Holy Trinity Column, a UNESCO World Heritage site, dominates the main square, surrounded by charming streets lined with cafes, shops, and historic buildings. Olomouc is home to a vibrant student population, infusing the city with energy, festivals, and cultural events throughout the year. Visitors can explore museums, galleries, and theaters, or stroll through green parks and gardens. Traditional Czech cuisine, local beers, and artisan products can be enjoyed in cozy restaurants. With its blend of history, culture, and youthful energy, Olomouc is a captivating destination."
         },
         {
           "name": "Český Krumlov",
           "slug": "cesky-krumlov",
           "image": "cesky-krumlov.jpg",
+          "population": {
+            "2018": "13085",
+            "2019": "13041",
+            "2020": "12855",
+            "2021": "12488",
+            "2022": "12461",
+            "2023": "12907",
+            "2024": "12944",
+            "2025": "12797"
+          },
           "description": "Český Krumlov is a picturesque, fairy-tale town in southern Bohemia, famed for its winding cobblestone streets, Renaissance and Baroque architecture, and majestic castle overlooking the Vltava River. A UNESCO World Heritage site, the town captivates visitors with historic squares, artisan shops, and charming cafes. The castle complex hosts museums, galleries, and cultural events, including music and theater festivals. Visitors can enjoy river excursions, scenic viewpoints, and explore hidden courtyards and gardens. Český Krumlov’s unique charm, historic ambiance, and lively cultural scene make it a must-visit destination for travelers seeking history, art, and fairy-tale beauty."
         }
       ]
