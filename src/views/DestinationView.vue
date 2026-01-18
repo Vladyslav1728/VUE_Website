@@ -5,7 +5,7 @@
 
     <div class="destination-details">
       <p class="text-main">{{ destination.description }}</p>
-      <img :src="`/images/${destination.image}`" :alt="destination.name" />
+      <img :src="`/VUE_Website/images/${destination.image}`" :alt="destination.name" />
     </div>
 
     <div class="destination-facts">

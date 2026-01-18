@@ -13,7 +13,7 @@
            class="destination-card">
 
         <RouterLink :to="`/destination/${d.slug}`">
-          <img :src="`/images/${d.image}`" :alt="d.name" />
+          <img :src="`/VUE_Website/images/${d.image}`" :alt="d.name" />
         </RouterLink>
 
         <h2>{{ d.name }}</h2>

@@ -2,7 +2,7 @@
   <div class = "experience-details" v-if = "experience">
 
     <h2>{{ experience.name }}</h2>
-    <img :src="`/images/${experience.image}`" :alt="experience.name" />
+    <img :src="`/VUE_Website/images/${experience.image}`" :alt="experience.name" />
     <p>{{ experience.description }}</p>
 
   </div>

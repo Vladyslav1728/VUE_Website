@@ -2,7 +2,7 @@
   <div class="experience-card">
     <RouterLink :to="`/destination/${slug}/${experience.slug}`">
 
-      <img :src="`/images/${experience.image}`" :alt="experience.name"/>
+      <img :src="`/VUE_Website/images/${experience.image}`" :alt="experience.name"/>
       <div class="card-text">
         <h3>{{ experience.name }}</h3>
         <p>{{ experience.description.slice(0, 120) }}...</p>

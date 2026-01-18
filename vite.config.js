@@ -4,9 +4,11 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+// npm run build
+// gh-pages -d dist
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/repository-name/',
+  base: 'VUE_Website',
   plugins: [
     vue(),
     vueDevTools(),
