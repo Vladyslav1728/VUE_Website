@@ -26,7 +26,7 @@ export default {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: #ffffff;
+  color: #254a2b;
   opacity: 0.95;
 }
 </style>

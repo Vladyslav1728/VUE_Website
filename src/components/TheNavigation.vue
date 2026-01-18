@@ -36,7 +36,7 @@ export default {
   padding: 26px 32px;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #077c22, #58ca89);
+  background: linear-gradient(135deg, #d6ffe1, #ffffff);
   color: white;
   z-index: 10;
   box-shadow: 0 8px 25px rgba(76, 175, 122, 0.35);
@@ -44,7 +44,7 @@ export default {
 }
 #nav a {
   margin-right: 22px;
-  color: #ffffff;
+  color: #254a2b;
   opacity: 0.85;
   font-weight: 600;
   letter-spacing: 0.4px;
@@ -67,7 +67,7 @@ export default {
   bottom: -6px;
   width: 100%;
   height: 2px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(37, 74, 43);
   border-radius: 2px;
 }
 </style>

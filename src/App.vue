@@ -28,7 +28,7 @@ export default {
 .footer {
   width: 100%;
   margin-top: 80px;
-  background: linear-gradient(135deg, #077c22, #58ca89);
+  background: linear-gradient(135deg, #d6ffe1, #ffffff);
   box-shadow: 0 -8px 25px rgba(76, 175, 122, 0.25);
 }
 </style>
