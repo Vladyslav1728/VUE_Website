@@ -1,1 +1,0 @@
-import{_ as t,c as n,a as s,b as a,w as r,g as d,d as c,o as u}from"./index-BZkivJVh.js";const l={name:"NotFound"},_={class:"notfound"};function p(f,o,i,m,x,N){const e=c("router-link");return u(),n("div",_,[o[1]||(o[1]=s("h1",null,"Page not found",-1)),a(e,{to:"/"},{default:r(()=>[...o[0]||(o[0]=[d("Go Home",-1)])]),_:1})])}const $=t(l,[["render",p]]);export{$ as default};
