@@ -1,13 +1,12 @@
 <template>
   <nav id="nav">
-    <RouterLink to="/" :class="{ 'router-link-active': isActive('/') }">Home</RouterLink>
-    <RouterLink v-for="d in destinations"
-                :key="d.id"
-                :to="`/destination/${d.slug}`"
-                :class="{ 'router-link-active': isActive(`/destination/${d.slug}`) }">
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink
+        v-for="d in destinations"
+        :key="d.id"
+        :to="`/destination/${d.slug}`">
 
       {{ d.name }}
-
     </RouterLink>
   </nav>
 </template>
