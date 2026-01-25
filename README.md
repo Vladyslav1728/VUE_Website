@@ -10,8 +10,11 @@ Používatelia si môžu prezerať krajiny, otvárať podrobné stránky a objav
 - `Vue 3`
 - `Vue Router`
 - `JavaScript`
-- `CSS` (Scoped styles)
+- `CSS`
 - `JSON` ako zdroj údajov
+- `TypeScript` pre kontrolu typu údajov zo súboru
+- `Pinia` používa sa ako centralizované úložisko údajov
+- `LocalStore` používa sa na ukladanie údajov v prehliadači
 
 ---
 

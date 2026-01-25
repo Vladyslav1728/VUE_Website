@@ -1,9 +1,9 @@
-import { defineStore } from "pinia"
+import { defineStore } from "pinia" // функция из Pinia для создания Store
 import data from "@/data.json"
 import type { Destination, Experience } from "@/types/data"
 
 export const useDestinationsStore = defineStore("destinations", {
-    state: () => ({
+    state: () => ({ // это данные компонента
         destinations: data.destinations as Destination[],
         currentDestination: null as Destination | null,
         currentExperience: null as Experience | null
@@ -11,19 +11,16 @@ export const useDestinationsStore = defineStore("destinations", {
     actions: {
         loadDestinations() {
             const saved = localStorage.getItem("destinations")
-            // проверка есть ли данные в LocalStorage
             if (saved) {
-                this.destinations = JSON.parse(saved)
+                this.destinations = JSON.parse(saved) // конвертация строки в json
             } else {
-                this.destinations = data.destinations
+                this.destinations = data.destinations // взять данные из data и сохранить в store
                 this.saveDestinations()
             }
         },
         saveDestinations() {
-            localStorage.setItem(
-                "destinations",
-                JSON.stringify(this.destinations)
-            )
+            localStorage.setItem("destinations", JSON.stringify(this.destinations)) // конвертация json в строку
+            // (потому что можно передать только строку)
         },
         setDestinationBySlug(slug: string) {
             this.currentDestination = this.destinations.find(d => d.slug === slug) || null
@@ -32,5 +29,6 @@ export const useDestinationsStore = defineStore("destinations", {
             if (!this.currentDestination) return
             this.currentExperience = this.currentDestination.experiences.find(e => e.slug === experienceSlug) || null
         }
+        // если find нашел - обьект, если нет - undefined (но тут выведет null)
     }
 })

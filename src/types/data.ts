@@ -1,3 +1,7 @@
+// интерфейс описывает структуру объекта / можно экспортировать из других файлов
+export interface DestinationsData {
+    destinations: Destination[]
+}
 export interface Destination {
     id: number
     name: string
@@ -21,7 +25,4 @@ export interface FactsTable {
     Currency: string
     Language: string
     Region: string
-}
-export interface DestinationsData {
-    destinations: Destination[]
 }

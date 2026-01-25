@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore.js"
+import { useDestinationsStore } from "@/stores/useDestinationsStore.ts"
 import TheNavigation from "@/components/TheNavigation.vue"
 import TheFooter from "@/components/TheFooter.vue"
 
@@ -23,7 +23,7 @@ export default {
     TheNavigation,
     TheFooter
   },
-  mounted() {
+  mounted() { // метод срабатывает, когда компоненты уже вставлены
     const store = useDestinationsStore()
     store.loadDestinations()
   }

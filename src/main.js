@@ -1,5 +1,6 @@
-import { createApp } from "vue"
-import { createPinia } from 'pinia'
+import { createApp } from "vue" // чтобы создать корневое Vue-приложение
+import { createPinia } from 'pinia' // для создания Pinia store
+
 import App from "@/App.vue"
 import router from "@/router/index.js"
 import "@/assets/main.css"
