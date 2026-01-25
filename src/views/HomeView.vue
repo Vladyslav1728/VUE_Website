@@ -9,7 +9,7 @@
 
     <div class="destinations">
       <div v-for="d in destinations"
-           :key="d.id"
+           :key="d.slug"
            class="destination-card">
 
         <RouterLink :to="`/destination/${d.slug}`">

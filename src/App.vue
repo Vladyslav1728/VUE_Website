@@ -13,13 +13,19 @@
 </template>
 
 <script>
+import { useDestinationsStore } from "@/stores/useDestinationsStore"
 import TheNavigation from "@/components/TheNavigation.vue"
 import TheFooter from "@/components/TheFooter.vue"
+
 export default {
   name: "App",
   components: {
     TheNavigation,
     TheFooter
+  },
+  mounted() {
+    const store = useDestinationsStore()
+    store.loadDestinations()
   }
 }
 </script>
