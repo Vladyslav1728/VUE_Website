@@ -14,7 +14,7 @@
 
 
 <script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore";
+import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
 
 export default {
   name: "TheNavigation",

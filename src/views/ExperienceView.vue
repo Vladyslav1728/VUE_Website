@@ -17,21 +17,25 @@
 
 
 
-<script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore";
+<script lang="ts">
+import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
 import PopulationChart from "@/components/PopulationChart.vue";
+import type { Destination, Experience } from "@/types/data.ts";
 
 export default {
   name: "ExperienceView",
   components: { PopulationChart },
-  props: ["slug", "experienceSlug"],
+  props: {
+    slug: { type: String, required: true },
+    experienceSlug: { type: String, required: true }
+  },
   computed: {
-    experience() {
+    experience(): Experience | null {
       const store = useDestinationsStore()
-      const destination = store.destinations.find(d => d.slug === this.slug)
-      if (!destination) return null
+      const destination: Destination | undefined = store.destinations.find(d => d.slug === this.slug);
+      if (!destination) return null;
 
-      return destination.experiences.find(e => e.slug === this.experienceSlug)
+      return destination.experiences.find(e => e.slug === this.experienceSlug) || null;
     }
   },
   mounted() {

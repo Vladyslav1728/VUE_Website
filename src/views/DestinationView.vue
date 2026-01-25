@@ -33,18 +33,21 @@
 
 
 
-<script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore";
+<script lang="ts">
+import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
 import ExperienceCard from "@/components/ExperienceCard.vue";
+import type { Destination } from "@/types/data.ts";
 import TheFooter from "@/components/TheFooter.vue";
 import Table from "@/components/Table.vue";
 
 export default {
   name: "DestinationView",
-  props: ["slug"],
+  props: {
+    slug: { type: String, required: true }
+  },
   components: {TheFooter, ExperienceCard, Table},
   computed: {
-    destination() {
+    destination(): Destination | null {
       const store = useDestinationsStore()
       return store.destinations.find(d => d.slug === this.slug) || null
     }

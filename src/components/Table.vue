@@ -13,12 +13,13 @@
 
 
 
-<script>
+<script lang="ts">
+import type { FactsTable } from "@/types/data.ts"
 export default {
   name: "Table",
   props: {
     data: {
-      type: Object,
+      type: Object as () => FactsTable,
       required: true
     }
   }

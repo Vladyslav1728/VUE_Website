@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+// cd C:/Users/vlad2/WebstormProjects/VueRouter_project_2026
 // npm run build
 // gh-pages -d dist
 // https://vite.dev/config/

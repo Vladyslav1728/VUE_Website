@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore"
+import { useDestinationsStore } from "@/stores/useDestinationsStore.js"
 import TheNavigation from "@/components/TheNavigation.vue"
 import TheFooter from "@/components/TheFooter.vue"
 

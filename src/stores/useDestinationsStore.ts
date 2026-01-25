@@ -1,11 +1,12 @@
 import { defineStore } from "pinia"
 import data from "@/data.json"
+import type { Destination, Experience } from "@/types/data"
 
 export const useDestinationsStore = defineStore("destinations", {
     state: () => ({
-        destinations: data.destinations,
-        currentDestination: null,
-        currentExperience: null
+        destinations: data.destinations as Destination[],
+        currentDestination: null as Destination | null,
+        currentExperience: null as Experience | null
     }),
     actions: {
         loadDestinations() {
@@ -24,11 +25,10 @@ export const useDestinationsStore = defineStore("destinations", {
                 JSON.stringify(this.destinations)
             )
         },
-        setDestinationBySlug(slug) {
-            this.currentDestination =
-                this.destinations.find(d => d.slug === slug) || null
+        setDestinationBySlug(slug: string) {
+            this.currentDestination = this.destinations.find(d => d.slug === slug) || null
         },
-        setExperienceBySlug(experienceSlug) {
+        setExperienceBySlug(experienceSlug: string) {
             if (!this.currentDestination) return
             this.currentExperience = this.currentDestination.experiences.find(e => e.slug === experienceSlug) || null
         }
