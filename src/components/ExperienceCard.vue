@@ -15,23 +15,23 @@
 
 
 <script>
-export default {
-  name: "ExperienceCard",
-  props: {
-    slug: { type: String, required: true },
-    experience: { type: Object, required: true }
-  },
-  methods: {
-    scrollDownToText() {
-      setTimeout(() => {
-        const textBlock = document.querySelector(".experience-title");
-        if (textBlock) {
-          textBlock.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      });
+  export default {
+    name: "ExperienceCard",
+    props: {
+      slug: { type: String, required: true },
+      experience: { type: Object, required: true }
+    },
+    methods: {
+      scrollDownToText() {
+        setTimeout(() => {
+          const textBlock = document.querySelector(".experience-title");
+          if (textBlock) {
+            textBlock.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      }
     }
   }
-}
 </script>
 
 

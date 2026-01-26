@@ -1,103 +1,6 @@
 {
   "destinations": [
     {
-      "name": "Ukraine",
-      "slug": "ukraine",
-      "image": "ukraine.jpg",
-      "id": 1,
-      "description": "Ukraine is the largest country entirely in Europe, boasting a remarkable variety of landscapes that stretch from the majestic Carpathian Mountains in the west to the serene Black Sea coast in the south. Kyiv, the capital, is a vibrant city where golden-domed churches, historic monasteries, and bustling markets coexist with modern art galleries, theaters, and lively nightlife. Lviv, a cultural gem, captivates visitors with its charming old town, cobblestone streets, thriving coffee culture, and numerous festivals celebrating art and music. Odesa, the historic port city, enchants with its sunny beaches, eclectic architecture blending French, Italian, and Russian influences, and a rich maritime heritage. Ukraine is home to fertile plains and is one of the world’s largest grain exporters, while its folk traditions, colorful festivals, and music reflect centuries of rich cultural heritage. Ukrainian cuisine offers hearty and flavorful dishes such as borscht, varenyky, salo, and traditional pastries. The Carpathians provide breathtaking opportunities for hiking, skiing, and nature exploration, while Chernivtsi and Kamianets-Podilskyi impress visitors with medieval charm and historical architecture. From cozy village traditions to cosmopolitan cities, Ukraine combines history, culture, gastronomy, and natural beauty into a truly unforgettable travel experience.",
-      "facts": "1. The largest country located entirely in Europe.\n2. Known for fertile lands and being one of the world’s top grain exporters.\n3. Rich cultural heritage with traditional music, dance, and festivals.\n4. Home to diverse landscapes including mountains, plains, and the Black Sea coast.\n5. Famous for hospitality, strong national identity, and historic cities.",
-      "factsTable": {
-        "Capital": "Kyiv",
-        "Population": "≈ 41 million",
-        "Currency": "Hryvnia (UAH)",
-        "Language": "Ukrainian",
-        "Region": "Eastern Europe"
-      },
-      "experiences": [
-        {
-          "name": "Kyiv",
-          "slug": "kyiv",
-          "image": "kyiv.jpg",
-          "population": {
-            "2018": "2930000",
-            "2019": "2950000",
-            "2020": "2970000",
-            "2021": "2990000",
-            "2022": "3000000",
-            "2023": "2500000",
-            "2024": "2700000",
-            "2025": "2800000"
-          },
-          "description": "Kyiv, the vibrant capital of Ukraine, is a city of golden domes, bustling markets, and historic streets. Visitors can explore ancient cathedrals such as Saint Sophia and Kyiv Pechersk Lavra, marvel at modern art galleries and museums, and stroll along the scenic Dnipro River embankments. Kyiv’s rich history spans over 1,400 years, blending medieval, Baroque, and Soviet architecture. The city hosts lively cultural festivals, street performances, and vibrant nightlife, offering a perfect combination of tradition and modern life. Food lovers can enjoy traditional Ukrainian cuisine, including borscht, varenyky, and hearty street food. The city also boasts numerous parks, botanical gardens, and river cruises, making Kyiv a destination for both culture and relaxation."
-        },
-        {
-          "name": "Lviv",
-          "slug": "lviv",
-          "image": "lviv.jpg",
-          "population": {
-            "2018": "726772",
-            "2019": "724713",
-            "2020": "724314",
-            "2021": "721510",
-            "2022": "717273",
-            "2023": "719043",
-            "2024": "720934",
-            "2025": "723403"
-          },
-          "description": "Lviv enchants with its cobblestone streets, baroque and Renaissance architecture, and rich coffee culture. The city is famous for its historic old town, a UNESCO World Heritage site filled with charming squares, fountains, and hidden courtyards. Lviv hosts numerous cultural festivals, including the Lviv Coffee Festival, Jazz Fest, and Book Forum, creating a lively atmosphere year-round. Visitors can explore its many museums, art galleries, and theaters, or enjoy street performances in the town center. Local cuisine offers unique blends of Ukrainian, Polish, and Austrian flavors, and cozy cafes serve some of the best coffee in Europe. Lviv is also known for its vibrant night scene, scenic rooftop views, and beautiful parks and gardens, making it a cultural and artistic hub."
-        },
-        {
-          "name": "Odesa",
-          "slug": "odesa",
-          "image": "odesa.jpg",
-          "population": {
-            "2018": "1011000",
-            "2019": "1010000",
-            "2020": "1009000",
-            "2021": "1010537",
-            "2022": "1008000",
-            "2023": "1007756",
-            "2024": "1008103",
-            "2025": "1007000"
-          },
-          "description": "Odesa, a port city on the Black Sea, is famous for its sunny beaches, eclectic architecture, and lively cultural scene. Its historic opera house is an architectural gem, and the bustling markets, including the Privoz Market, offer a taste of local life and fresh produce. Odesa’s streets feature a mix of Art Nouveau, Renaissance, and Soviet-era buildings, creating a unique urban atmosphere. The city is home to numerous festivals, music events, and theaters, making it a vibrant center for arts and entertainment. Visitors can enjoy relaxing walks along the Primorsky Boulevard, explore catacombs and historic landmarks, or take boat tours along the Black Sea coast. Odesa is also known for its humor, seaside cuisine, and warm, welcoming residents."
-        },
-        {
-          "name": "Dnipro",
-          "slug": "dnipro",
-          "image": "dnipro.jpg",
-          "population": {
-            "2018": "1017000",
-            "2019": "1010000",
-            "2020": "1005000",
-            "2021": "990000",
-            "2022": "968502",
-            "2023": "942000",
-            "2024": "937000",
-            "2025": "892000"
-          },
-          "description": "Dnipro, situated on the banks of the Dnipro River, combines modern urban life with relaxing riverfront promenades. The city features impressive Soviet-era architecture alongside modern skyscrapers, museums, and art galleries. Parks, gardens, and open-air recreational areas offer opportunities for walking, cycling, and leisure. Dnipro is also an important industrial and scientific hub, with universities, research centers, and technology parks. Visitors can enjoy cultural events, theaters, and local festivals celebrating music, art, and heritage. The city’s vibrant cafes, restaurants, and river cruises provide a taste of local life and cuisine. Dnipro’s dynamic atmosphere makes it ideal for exploring both the city’s history and contemporary culture."
-        },
-        {
-          "name": "Kharkiv",
-          "slug": "kharkiv",
-          "image": "kharkiv.jpg",
-          "population": {
-            "2018": "1450100",
-            "2019": "1440000",
-            "2020": "1435300",
-            "2021": "1447000",
-            "2022": "1406000",
-            "2023": "1343000",
-            "2024": "1321000",
-            "2025": "1302000"
-          },
-          "description": "Kharkiv is a vibrant university city in northeastern Ukraine, known for its wide boulevards, parks, and diverse architecture spanning Baroque, Neoclassical, and Soviet styles. The city hosts numerous cultural events, including international music festivals, theater performances, and art exhibitions, creating a youthful and dynamic atmosphere. Museums, botanical gardens, and historical landmarks attract visitors interested in history and culture. Kharkiv is home to several universities and research centers, contributing to its energetic student life. The city’s lively cafes, local markets, and modern shopping areas offer a taste of everyday life. Whether exploring its museums, enjoying cultural performances, or walking through its green spaces, Kharkiv combines history, education, and entertainment in a vibrant urban experience."
-        }
-      ]
-    },
-    {
       "name": "Slovakia",
       "slug": "slovakia",
       "image": "slovakia.jpg",
@@ -191,6 +94,103 @@
             "2025": "75000"
           },
           "description": "Nitra, one of Slovakia’s oldest cities, offers a fascinating journey through history and culture. Its hilltop castles provide panoramic views of the surrounding landscapes, while historic churches, including the Cathedral of St. Emeram, showcase centuries of architectural beauty. Nitra is a center for education, with universities and cultural institutions contributing to a vibrant local life. Visitors can explore museums, galleries, and theaters, attend cultural festivals, and enjoy traditional Slovak cuisine in cozy restaurants. The city also has beautiful parks and promenades along the river, perfect for relaxing walks. Nitra’s rich blend of history, education, and cultural life makes it a must-visit city in Slovakia."
+        }
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "image": "ukraine.jpg",
+      "id": 1,
+      "description": "Ukraine is the largest country entirely in Europe, boasting a remarkable variety of landscapes that stretch from the majestic Carpathian Mountains in the west to the serene Black Sea coast in the south. Kyiv, the capital, is a vibrant city where golden-domed churches, historic monasteries, and bustling markets coexist with modern art galleries, theaters, and lively nightlife. Lviv, a cultural gem, captivates visitors with its charming old town, cobblestone streets, thriving coffee culture, and numerous festivals celebrating art and music. Odesa, the historic port city, enchants with its sunny beaches, eclectic architecture blending French, Italian, and Russian influences, and a rich maritime heritage. Ukraine is home to fertile plains and is one of the world’s largest grain exporters, while its folk traditions, colorful festivals, and music reflect centuries of rich cultural heritage. Ukrainian cuisine offers hearty and flavorful dishes such as borscht, varenyky, salo, and traditional pastries. The Carpathians provide breathtaking opportunities for hiking, skiing, and nature exploration, while Chernivtsi and Kamianets-Podilskyi impress visitors with medieval charm and historical architecture. From cozy village traditions to cosmopolitan cities, Ukraine combines history, culture, gastronomy, and natural beauty into a truly unforgettable travel experience.",
+      "facts": "1. The largest country located entirely in Europe.\n2. Known for fertile lands and being one of the world’s top grain exporters.\n3. Rich cultural heritage with traditional music, dance, and festivals.\n4. Home to diverse landscapes including mountains, plains, and the Black Sea coast.\n5. Famous for hospitality, strong national identity, and historic cities.",
+      "factsTable": {
+        "Capital": "Kyiv",
+        "Population": "≈ 41 million",
+        "Currency": "Hryvnia (UAH)",
+        "Language": "Ukrainian",
+        "Region": "Eastern Europe"
+      },
+      "experiences": [
+        {
+          "name": "Kyiv",
+          "slug": "kyiv",
+          "image": "kyiv.jpg",
+          "population": {
+            "2018": "2930000",
+            "2019": "2950000",
+            "2020": "2970000",
+            "2021": "2990000",
+            "2022": "3000000",
+            "2023": "2500000",
+            "2024": "2700000",
+            "2025": "2800000"
+          },
+          "description": "Kyiv, the vibrant capital of Ukraine, is a city of golden domes, bustling markets, and historic streets. Visitors can explore ancient cathedrals such as Saint Sophia and Kyiv Pechersk Lavra, marvel at modern art galleries and museums, and stroll along the scenic Dnipro River embankments. Kyiv’s rich history spans over 1,400 years, blending medieval, Baroque, and Soviet architecture. The city hosts lively cultural festivals, street performances, and vibrant nightlife, offering a perfect combination of tradition and modern life. Food lovers can enjoy traditional Ukrainian cuisine, including borscht, varenyky, and hearty street food. The city also boasts numerous parks, botanical gardens, and river cruises, making Kyiv a destination for both culture and relaxation."
+        },
+        {
+          "name": "Lviv",
+          "slug": "lviv",
+          "image": "lviv.jpg",
+          "population": {
+            "2018": "726772",
+            "2019": "724713",
+            "2020": "724314",
+            "2021": "721510",
+            "2022": "717273",
+            "2023": "719043",
+            "2024": "720934",
+            "2025": "723403"
+          },
+          "description": "Lviv enchants with its cobblestone streets, baroque and Renaissance architecture, and rich coffee culture. The city is famous for its historic old town, a UNESCO World Heritage site filled with charming squares, fountains, and hidden courtyards. Lviv hosts numerous cultural festivals, including the Lviv Coffee Festival, Jazz Fest, and Book Forum, creating a lively atmosphere year-round. Visitors can explore its many museums, art galleries, and theaters, or enjoy street performances in the town center. Local cuisine offers unique blends of Ukrainian, Polish, and Austrian flavors, and cozy cafes serve some of the best coffee in Europe. Lviv is also known for its vibrant night scene, scenic rooftop views, and beautiful parks and gardens, making it a cultural and artistic hub."
+        },
+        {
+          "name": "Odesa",
+          "slug": "odesa",
+          "image": "odesa.jpg",
+          "population": {
+            "2018": "1011000",
+            "2019": "1010000",
+            "2020": "1009000",
+            "2021": "1010537",
+            "2022": "1008000",
+            "2023": "1007756",
+            "2024": "1008103",
+            "2025": "1007000"
+          },
+          "description": "Odesa, a port city on the Black Sea, is famous for its sunny beaches, eclectic architecture, and lively cultural scene. Its historic opera house is an architectural gem, and the bustling markets, including the Privoz Market, offer a taste of local life and fresh produce. Odesa’s streets feature a mix of Art Nouveau, Renaissance, and Soviet-era buildings, creating a unique urban atmosphere. The city is home to numerous festivals, music events, and theaters, making it a vibrant center for arts and entertainment. Visitors can enjoy relaxing walks along the Primorsky Boulevard, explore catacombs and historic landmarks, or take boat tours along the Black Sea coast. Odesa is also known for its humor, seaside cuisine, and warm, welcoming residents."
+        },
+        {
+          "name": "Dnipro",
+          "slug": "dnipro",
+          "image": "dnipro.jpg",
+          "population": {
+            "2018": "1017000",
+            "2019": "1010000",
+            "2020": "1005000",
+            "2021": "990000",
+            "2022": "968502",
+            "2023": "942000",
+            "2024": "937000",
+            "2025": "892000"
+          },
+          "description": "Dnipro, situated on the banks of the Dnipro River, combines modern urban life with relaxing riverfront promenades. The city features impressive Soviet-era architecture alongside modern skyscrapers, museums, and art galleries. Parks, gardens, and open-air recreational areas offer opportunities for walking, cycling, and leisure. Dnipro is also an important industrial and scientific hub, with universities, research centers, and technology parks. Visitors can enjoy cultural events, theaters, and local festivals celebrating music, art, and heritage. The city’s vibrant cafes, restaurants, and river cruises provide a taste of local life and cuisine. Dnipro’s dynamic atmosphere makes it ideal for exploring both the city’s history and contemporary culture."
+        },
+        {
+          "name": "Kharkiv",
+          "slug": "kharkiv",
+          "image": "kharkiv.jpg",
+          "population": {
+            "2018": "1450100",
+            "2019": "1440000",
+            "2020": "1435300",
+            "2021": "1447000",
+            "2022": "1406000",
+            "2023": "1343000",
+            "2024": "1321000",
+            "2025": "1302000"
+          },
+          "description": "Kharkiv is a vibrant university city in northeastern Ukraine, known for its wide boulevards, parks, and diverse architecture spanning Baroque, Neoclassical, and Soviet styles. The city hosts numerous cultural events, including international music festivals, theater performances, and art exhibitions, creating a youthful and dynamic atmosphere. Museums, botanical gardens, and historical landmarks attract visitors interested in history and culture. Kharkiv is home to several universities and research centers, contributing to its energetic student life. The city’s lively cafes, local markets, and modern shopping areas offer a taste of everyday life. Whether exploring its museums, enjoying cultural performances, or walking through its green spaces, Kharkiv combines history, education, and entertainment in a vibrant urban experience."
         }
       ]
     },

@@ -7,69 +7,69 @@
 
 
 <script>
-import Chart from "chart.js/auto";
+  import Chart from "chart.js/auto";
 
-export default {
-  name: "PopulationChart",
-  props: {
-    data: {
-      type: Object,
-      required: true
-    }
-  },
-  data() {
-    return {
-      chartInstance: null
-    };
-  },
-  mounted() {
-    this.renderChart();
-  },
-  watch: {
-    data: {
-      handler() {
-        this.renderChart();
-      },
-      deep: true
-    }
-  },
-  methods: {
-    renderChart() {
-      const canvas = this.$refs.canvas;
-      if (!canvas) return;
-      const labels = Object.keys(this.data);
-      const values = Object.values(this.data);
-      if (this.chartInstance) {
-        this.chartInstance.destroy();
+  export default {
+    name: "PopulationChart",
+    props: {
+      data: {
+        type: Object,
+        required: true
       }
-      this.chartInstance = new Chart(canvas, {
-        type: "line",
-        data: {
-          labels,
-          datasets: [
-            {
-              label: "Population",
-              data: values,
-              borderColor: "#4CAF7A",
-              backgroundColor: "rgba(76, 175, 122, 0.2)",
-              fill: true,
-              tension: 0.3
-            }
-          ]
+    },
+    data() {
+      return {
+        chartInstance: null
+      };
+    },
+    mounted() {
+      this.renderChart();
+    },
+    watch: {
+      data: {
+        handler() {
+          this.renderChart();
         },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false }
-          },
-          scales: {
-            y: { beginAtZero: false }
-          }
+        deep: true
+      }
+    },
+    methods: {
+      renderChart() {
+        const canvas = this.$refs.canvas;
+        if (!canvas) return;
+        const labels = Object.keys(this.data);
+        const values = Object.values(this.data);
+        if (this.chartInstance) {
+          this.chartInstance.destroy();
         }
-      });
+        this.chartInstance = new Chart(canvas, {
+          type: "line",
+          data: {
+            labels,
+            datasets: [
+              {
+                label: "Population",
+                data: values,
+                borderColor: "#4CAF7A",
+                backgroundColor: "rgba(76, 175, 122, 0.2)",
+                fill: true,
+                tension: 0.3
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: { display: false }
+            },
+            scales: {
+              y: { beginAtZero: false }
+            }
+          }
+        });
+      }
     }
-  }
-};
+  };
 </script>
 
 

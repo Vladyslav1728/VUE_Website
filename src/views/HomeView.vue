@@ -28,17 +28,17 @@
 
 
 <script lang="ts">
-import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
-import type { Destination } from "@/types/data.ts";
-export default {
-  name: "HomeView",
-  computed: {
-    destinations(): Destination[] {
-      const store = useDestinationsStore()
-      return store.destinations
+  import { useDestinationsStore } from "@/stores/useDestinationsStore";
+  import type { Destination } from "@/types/data.ts";
+  export default {
+    name: "HomeView",
+    computed: {
+      destinations(): Destination[] {
+        const store = useDestinationsStore()
+        return store.destinations
+      }
     }
   }
-}
 </script>
 
 

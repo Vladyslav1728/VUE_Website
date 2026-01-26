@@ -13,21 +13,21 @@
 </template>
 
 <script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore.ts"
-import TheNavigation from "@/components/TheNavigation.vue"
-import TheFooter from "@/components/TheFooter.vue"
+  import { useDestinationsStore } from "@/stores/useDestinationsStore.ts"
+  import TheNavigation from "@/components/TheNavigation.vue"
+  import TheFooter from "@/components/TheFooter.vue"
 
-export default {
-  name: "App",
-  components: {
-    TheNavigation,
-    TheFooter
-  },
-  mounted() { // метод срабатывает, когда компоненты уже вставлены
-    const store = useDestinationsStore()
-    store.loadDestinations()
+  export default {
+    name: "App",
+    components: {
+      TheNavigation,
+      TheFooter
+    },
+    mounted() { // метод срабатывает, когда компоненты уже вставлены
+      const store = useDestinationsStore()
+      store.loadDestinations()
+    }
   }
-}
 </script>
 
 <style scoped>

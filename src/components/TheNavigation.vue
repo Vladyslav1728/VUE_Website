@@ -14,15 +14,15 @@
 
 
 <script>
-import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
+  import { useDestinationsStore } from "@/stores/useDestinationsStore";
 
-export default {
-  name: "TheNavigation",
-  setup() {
-    const store = useDestinationsStore()
-    return { destinations: store.destinations }
+  export default {
+    name: "TheNavigation",
+    setup() {
+      const store = useDestinationsStore()
+      return { destinations: store.destinations }
+    }
   }
-}
 </script>
 
 

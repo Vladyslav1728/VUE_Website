@@ -7,14 +7,14 @@
 
 
 <script>
-export default {
-  name: "TheFooter",
-  data() {
-    return {
-      year: new Date().getFullYear()
+  export default {
+    name: "TheFooter",
+    data() {
+      return {
+        year: new Date().getFullYear()
+      }
     }
   }
-}
 </script>
 
 

@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* 🔹 Базовые настройки */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+
+    /* 🔹 Поддержка современных возможностей JS */
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+
+    /* 🔹 Vue + TS */
+    "jsx": "preserve",
+    "useDefineForClassFields": true,
+
+    /* 🔹 Удобства */
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* 🔹 Пути (alias @) */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* 🔹 Вывод */
+    "noEmit": true
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}

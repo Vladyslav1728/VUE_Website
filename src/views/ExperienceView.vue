@@ -18,39 +18,37 @@
 
 
 <script lang="ts">
-import { useDestinationsStore } from "@/stores/useDestinationsStore.ts";
-import PopulationChart from "@/components/PopulationChart.vue";
-import type { Destination, Experience } from "@/types/data.ts";
+  import { useDestinationsStore } from "@/stores/useDestinationsStore";
+  import PopulationChart from "@/components/PopulationChart.vue";
+  import type { Destination, Experience } from "@/types/data.ts";
 
-export default {
-  name: "ExperienceView",
-  components: { PopulationChart },
-  props: {
-    slug: { type: String, required: true },
-    experienceSlug: { type: String, required: true }
-  },
-  computed: {
-    experience(): Experience | null {
-      const store = useDestinationsStore()
-      const destination: Destination | undefined = store.destinations.find(d => d.slug === this.slug);
-      if (!destination) return null;
-
-      return destination.experiences.find(e => e.slug === this.experienceSlug) || null;
-    }
-  },
-  mounted() {
-    this.scrollToText();
-  },
-  methods: {
-    scrollToText() {
-      this.$nextTick(() => {
-        if (this.$refs.textBlock) {
-          this.$refs.textBlock.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      });
+  export default {
+    name: "ExperienceView",
+    components: { PopulationChart },
+    props: {
+      slug: { type: String, required: true },
+      experienceSlug: { type: String, required: true }
+    },
+    computed: {
+      experience(): Experience | null {
+        const store = useDestinationsStore()
+        const destination: Destination | undefined = store.destinations.find(d => d.slug === this.slug);
+        if (!destination) return null;
+        return destination.experiences.find(e => e.slug === this.experienceSlug) || null;
+      }
+    },
+    mounted() {
+      this.scrollToText();
+    },
+    methods: {
+      scrollToText() {
+        this.$nextTick(() => {
+          const el = this.$refs.textBlock as HTMLElement | undefined
+          el?.scrollIntoView({ behavior: "smooth", block: "start" })
+        })
+      }
     }
   }
-}
 </script>
 
 

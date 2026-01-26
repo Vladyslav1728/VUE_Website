@@ -14,16 +14,17 @@
 
 
 <script lang="ts">
-import type { FactsTable } from "@/types/data.ts"
-export default {
-  name: "Table",
-  props: {
-    data: {
-      type: Object as () => FactsTable,
-      required: true
+  import type { FactsTable } from "@/types/data.ts"
+  export default {
+    name: "Table",
+    props: {
+      data: {
+        // Vue ожидает функцию-конструктор
+        type: Object as () => FactsTable,
+        required: true
+      }
     }
   }
-}
 </script>
 
 
