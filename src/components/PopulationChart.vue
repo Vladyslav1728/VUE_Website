@@ -7,7 +7,6 @@
 
 
 <script>
-import { onMounted, ref, watch } from "vue";
 import Chart from "chart.js/auto";
 
 export default {
@@ -18,14 +17,32 @@ export default {
       required: true
     }
   },
-  setup(props) {
-    const canvas = ref(null);
-    let chartInstance = null;
-    const renderChart = () => {
-      const labels = Object.keys(props.data);
-      const values = Object.values(props.data);
-      if (chartInstance) chartInstance.destroy();
-      chartInstance = new Chart(canvas.value, {
+  data() {
+    return {
+      chartInstance: null
+    };
+  },
+  mounted() {
+    this.renderChart();
+  },
+  watch: {
+    data: {
+      handler() {
+        this.renderChart();
+      },
+      deep: true
+    }
+  },
+  methods: {
+    renderChart() {
+      const canvas = this.$refs.canvas;
+      if (!canvas) return;
+      const labels = Object.keys(this.data);
+      const values = Object.values(this.data);
+      if (this.chartInstance) {
+        this.chartInstance.destroy();
+      }
+      this.chartInstance = new Chart(canvas, {
         type: "line",
         data: {
           labels,
@@ -50,10 +67,7 @@ export default {
           }
         }
       });
-    };
-    onMounted(renderChart);
-    watch(() => props.data, renderChart, { deep: true });
-    return { canvas };
+    }
   }
 };
 </script>
